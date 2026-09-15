@@ -2,6 +2,12 @@
 
 To strona statyczna. Pliki `index.html`, `styles.css`, `script.js` i katalog `assets/` należy umieścić w katalogu głównym domeny wskazanym w panelu hostingu OVHcloud. Nie wgrywaj archiwum ZIP jako jedynego pliku strony.
 
+Układ strony głównej opiera się na przesłanej makiecie LERTZ: ciemny kadr otwierający, pięć kategorii, korzyści marki, wyróżnione produkty, sekcja lifestyle, pięć etapów standardu, wsparcie i współpraca B2B. Karty kategorii oraz wyróżnionych produktów czekają na zdjęcia rzeczywistych urządzeń. Makieta służy jako wzór układu; umieszczone w niej wygenerowane zdjęcia i drobne teksty nie są źródłem parametrów produktu.
+
+## Materiały produktowe
+
+Do każdego modelu zbieraj: nazwę marki i symbol modelu, link do własnej oferty lub kartę produktu, fotografie produktu i zastosowań, instrukcję, zweryfikowaną specyfikację i informacje o zawartości zestawu. Pliki można przekazywać w rozmowie jako załączniki. Opisy z publicznych ofert Allegro należy porównać z dokumentacją modelu przed publikacją; zdjęcia można wykorzystać tylko przy odpowiednim prawie do ich użycia.
+
 ## Aktualizacje
 
 GitHub przechowuje kod i historię zmian. Zmiana w GitHubie nie pojawi się automatycznie w OVHcloud: do czasu konfiguracji bezpiecznego procesu wdrażania zaktualizowane pliki trzeba przesłać na hosting. Roboczą wersję warto oglądać pod oddzielnym adresem testowym, a na domenę główną przenosić po sprawdzeniu tekstów, zdjęć i działania strony. Adres testowy powinien być chroniony przed publicznym indeksowaniem na poziomie hostingu; nie należy dodawać `noindex` do wspólnego kodu przeznaczonego także na domenę główną.
