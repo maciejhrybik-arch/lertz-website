@@ -27,3 +27,7 @@ GitHub przechowuje kod i historię zmian. Zmiana w GitHubie nie pojawi się auto
 - Dane kontaktowe, właściciel marki i specyfikacje pozostają do potwierdzenia; nie twórz tych informacji na potrzeby SEO.
 
 Widoczności w wyszukiwarkach ani odpowiedziach AI nie można zagwarantować. Efekty oceniaj po uruchomieniu publicznej strony na podstawie rzeczywistych danych z Search Console.
+
+## Zasady redakcyjne kart produktowych
+
+Na stronach produktów pisz bezpośrednio głosem LERTZ: opisuj korzyści, funkcje i specyfikację urządzenia, bez komentowania źródła danych ani recenzowania treści oferty. Odnośniki do źródeł i uwagi o weryfikacji pozostają w dokumentacji projektu. Nie przedstawiaj niepotwierdzonych deklaracji jako faktów; wartości techniczne podawaj precyzyjnie, bez mylących skrótów.
