@@ -27,3 +27,35 @@
 .brand-logo-dark{background-image:url('assets/logo-lertz-tech-czarne.jpg');mix-blend-mode:multiply}
 .brand-logo-light{background-image:url('assets/logo-lertz-tech-biale.jpg');mix-blend-mode:screen}
 @media(max-width:520px){.site-header .brand-logo{width:158px;height:40px;background-size:563px 317px;background-position:-196px -140px}}
+
+/* Krótsza i węższa karta produktu — reguły nie zmieniają strony głównej. */
+.product-page .shell{width:min(calc(100% - 64px),1060px)}
+.product-page .section-pad{padding:52px 0}
+.product-page h2{font-size:clamp(1.85rem,2.7vw,2.9rem)}
+.product-page .breadcrumbs{padding:15px 0}
+.product-hero-grid{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:40px;min-height:0;padding:34px 0 42px}
+.product-copy h1{font-size:clamp(2.85rem,4vw,4.8rem);margin-bottom:14px}
+.product-lead{font-size:1.02rem;max-width:520px}
+.product-facts{gap:12px;margin:21px 0;padding-top:16px}
+.product-facts strong{font-size:clamp(1.05rem,1.4vw,1.45rem)}
+.product-media{min-height:350px;box-shadow:0 12px 30px #1c36431c}
+.product-media img{height:350px}
+.product-overview h2,.product-faq h2{margin-bottom:21px}
+.product-feature-grid{gap:12px}
+.product-feature-grid article{min-height:0;padding:20px}
+.product-feature-grid h3{margin:13px 0 8px;font-size:1.16rem}
+.product-feature-grid p,.faq-grid p{font-size:.94rem}
+.product-spec-grid,.product-box-grid{gap:48px}
+.product-spec-grid>div:first-child>p:last-child{margin-top:15px}
+.product-spec caption{margin-bottom:8px}
+.product-spec th,.product-spec td{padding:9px 6px;font-size:.9rem}
+.product-box-grid>div:first-child p:last-child{margin-top:13px}
+.box-list{gap:9px}
+.box-list span{min-height:68px;padding:14px 17px}
+.faq-grid{gap:12px}
+.faq-grid article{padding:19px}
+.faq-grid h3{font-size:1.1rem;margin-bottom:9px}
+.product-support{min-height:150px;margin-top:32px;margin-bottom:32px;padding:25px 30px}
+.product-support .support-action p{margin-bottom:10px}
+@media(max-width:950px){.product-hero-grid{grid-template-columns:1fr;gap:25px;padding:25px 0 32px}.product-media{max-width:530px;min-height:300px}.product-media img{height:300px}.product-spec-grid,.product-box-grid{gap:25px}}
+@media(max-width:620px){.product-page .shell{width:min(calc(100% - 32px),1060px)}.product-page .section-pad{padding:36px 0}.product-page .breadcrumbs{padding:12px 0}.product-copy h1{font-size:clamp(2.55rem,9vw,3.65rem)}.product-facts{gap:12px 18px;margin:17px 0;padding-top:13px}.product-facts>div{flex:1 1 110px}.product-media,.product-media img{min-height:250px;height:250px}.product-feature-grid,.faq-grid,.box-list{grid-template-columns:1fr}.product-feature-grid article{padding:17px}.box-list span{min-height:55px}.faq-grid article{padding:17px}.product-support{margin-top:22px;margin-bottom:22px;padding:22px}}
