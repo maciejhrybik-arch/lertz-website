@@ -31,3 +31,7 @@ Widoczności w wyszukiwarkach ani odpowiedziach AI nie można zagwarantować. Ef
 ## Zasady redakcyjne kart produktowych
 
 Na stronach produktów pisz bezpośrednio głosem LERTZ: opisuj korzyści, funkcje i specyfikację urządzenia, bez komentowania źródła danych ani recenzowania treści oferty. Odnośniki do źródeł i uwagi o weryfikacji pozostają w dokumentacji projektu. Nie przedstawiaj niepotwierdzonych deklaracji jako faktów; wartości techniczne podawaj precyzyjnie, bez mylących skrótów.
+
+## Galeria zdjęć produktów
+
+Każda karta używa tego samego komponentu `data-product-gallery`. Pierwsze zdjęcie znajduje się w `.gallery-main img`; dalsze dodaj wewnątrz `<template class="gallery-extra">` jako znaczniki `<img src="../assets/nazwa-pliku.jpg" alt="Opis ujęcia" data-caption="Krótki podpis">`. Po dodaniu drugiego zdjęcia skrypt automatycznie pokaże miniatury oraz przyciski poprzedniego i następnego zdjęcia. Jedno zdjęcie pozostaje widoczne bez pustych miniatur; kliknięcie powiększa je w oknie. Umieszczaj tylko rzeczywiste zdjęcia modelu i opisuj każde ujęcie innym tekstem alternatywnym.
