@@ -8,6 +8,12 @@ Układ strony głównej opiera się na przesłanej makiecie LERTZ: ciemny kadr o
 
 Do każdego modelu zbieraj: nazwę marki i symbol modelu, link do własnej oferty lub kartę produktu, fotografie produktu i zastosowań, instrukcję, zweryfikowaną specyfikację i informacje o zawartości zestawu. Pliki można przekazywać w rozmowie jako załączniki. Opisy z publicznych ofert Allegro należy porównać z dokumentacją modelu przed publikacją; zdjęcia można wykorzystać tylko przy odpowiednim prawie do ich użycia.
 
+### Projektor HY300 PRO+
+
+Pierwszą kartę oparto na publicznej [ofercie Allegro nr 18836302441](https://allegro.pl/produkt/projektor-led-lertz-hy-300-pro-bialy-e42e0d4c-b2f0-4b12-bc8f-0791382a4853?offerId=18836302441). W tytule oferty są hasła „Full HD” i „4K”, podczas gdy parametry i opis podają rozdzielczość natywną 1280 × 720. Na stronie produktu podana jest rozdzielczość natywna; hasła z tytułu nie zostały przedstawione jako rozdzielczość wyświetlanego obrazu. Nazwa modelu w treści to HY300 PRO+, choć adres oferty pomija znak plus; oznaczenie z tabliczki i instrukcji należy porównać przed zatwierdzeniem.
+
+W ofercie są też deklaracje około 250 lumenów/250 ANSI, Wi-Fi 6, procesor H713, gwarancje działania konkretnych aplikacji i coroczne aktualizacje. Nie wprowadzono ich do karty bez niezależnego potwierdzenia dokumentacją tego wariantu. Zdjęcie w pierwszej karcie jest tymczasowo ładowane bezpośrednio z galerii Allegro; przed publikacją zastąp je oryginalnym plikiem udostępnionym dla strony LERTZ.
+
 ## Aktualizacje
 
 GitHub przechowuje kod i historię zmian. Zmiana w GitHubie nie pojawi się automatycznie w OVHcloud: do czasu konfiguracji bezpiecznego procesu wdrażania zaktualizowane pliki trzeba przesłać na hosting. Roboczą wersję warto oglądać pod oddzielnym adresem testowym, a na domenę główną przenosić po sprawdzeniu tekstów, zdjęć i działania strony. Adres testowy powinien być chroniony przed publicznym indeksowaniem na poziomie hostingu; nie należy dodawać `noindex` do wspólnego kodu przeznaczonego także na domenę główną.
